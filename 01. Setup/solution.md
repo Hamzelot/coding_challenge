@@ -1,4 +1,4 @@
-# Basic Setup
+# Basic Setup Kubernetes Cluster
 
 ## System
 Microsoft Windows 10 21H2  
@@ -41,19 +41,19 @@ kubectl port-forward service/prometheus-kube-prometheus-prometheus 9090:9090 --n
 
 ### Kuard:
 
-![Kuard](../images/00_kuard_pods.PNG)
+![Kuard](../images/01_kuard_pods.PNG)
 
 ![Kuard](../images/01_kuard.PNG)
 
 ### Grafana:
 
-![Kuard](../images/03_grafana.PNG)
+![Kuard](../images/01_grafana.PNG)
 
 ### Prometheus:
 
-![Kuard](../images/04_prometheus.PNG)
+![Kuard](../images/01_prometheus.PNG)
 
 ### Pods:
 
-![Kuard](../images/02_prometheus_pods.PNG)
+![Kuard](../images/01_prometheus_pods.PNG)
 
