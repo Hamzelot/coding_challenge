@@ -14,5 +14,6 @@
 1. Cloud Native DevOps mit Kubernetes - ISBN: 978-3-86490-698-5
 1. https://helm.sh/docs/
 1. https://kubernetes.io
+1. https://docs.dapr.io/operations/monitoring/logging/fluentd/
 
 
