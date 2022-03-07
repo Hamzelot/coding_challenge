@@ -1,4 +1,6 @@
 # Welches CI/CD Tool wäre das Tool deiner Wahl?
 
 ## Antwort
-Mein Tool der Wahl, wäre GitLab, dar mir die Integration mit dem Git Repository gut gefällt und ich täglich damit arbeite.
+Mein Favorit wäre GitLab CI/CD, da ich sehr positive Erfahrung mit der Anwendung gemacht habe.
+
+

@@ -5,12 +5,12 @@
 
 ## Antwort
 
-Man kann das Deployment Manifest in einen `dry-run` einmal testen.
+Mir wäre da nur die Möglichkeit bekannt einen `dry-run` auszuführen, womit die Deployment Datei auf dem Server nicht wirklich durchgeführt wird.
 
 ## Kommandos
 
 ```
-kubectl apply -f .\deployment.yaml --dry-run=server -o yaml
+kubectl apply -f .\deployment.yaml --dry-run=server
 ```
 
 ## Screenshots

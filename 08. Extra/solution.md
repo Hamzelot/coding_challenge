@@ -1,6 +1,6 @@
 ## Wie stelle ich die Applikationen hinter einen Ingress Controller und wofür werden Ingress Controller verwendet?
 
-Der Ingress Controller ist dafür verantwortlich, Ingress Ressourcen in einem Cluster bereitzustellen. Eine Ingress Ressource ist im prinzip ein Load Balancer, der vor einer Service Ressource sitz. Der externe Travic wird über den Ingress Controller zum Service und von dort aus zu den unterschiedlichen Endpoints im Cluster geleitet. 
+Der Ingress Controller ist dafür verantwortlich, Ingress Ressourcen in einem Cluster bereitzustellen. Eine Ingress Ressource ist im prinzip ein Load Balancer, der vor einer Service Ressource sitz. Der externe Travic wird über den Ingress Controller zum Service und von dort aus zu den unterschiedlichen Endpoints im Cluster geleitet.
 
 ```
 apiVersion: extensions/v1beta1

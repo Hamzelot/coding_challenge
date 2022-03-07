@@ -1,7 +1,7 @@
 # Welche Möglichkeit gibt es ein fehlgeschlagenes Deployment auf eine frühere Version zurückzusetzen?
 
 ## Zeitaufwand 
-~ 10min
+~ 15min
 
 ## Antwort
 Nachdem eine Deyploment Ressource bearbeitet wurde, wird eine Rollout History aufgebaut, diese kann mittel `kubectl rollout` verwaltet werden. Um ein Deployment zurückzusetzen, muss folgender Befehl ausgeführt werden: `kubectl rollout undo deployment/XXX`

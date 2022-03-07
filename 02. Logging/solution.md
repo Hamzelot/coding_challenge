@@ -1,6 +1,7 @@
 # Wie würde eine Logging Lösung in einem Kubernetes Umfeld aussehen?
 
 ## Zeitaufwand 
+~90min
 
 ## Antwort
 
@@ -24,6 +25,10 @@ kubectl apply -f ./fluentd-dapr-with-rbac.yaml
 
 ```
 
+## Screenshots
+
 ![Running Pods](../images/02_pods.PNG)
 
-![Running Pods](../images/02_kibana.PNG)
+![Running Pods](../images/02_fluentd_pods.PNG)
+
+![Kibana](../images/02_kibana.PNG)
