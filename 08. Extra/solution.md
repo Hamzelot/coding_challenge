@@ -12,7 +12,27 @@ spec:
     serviceName: kuard-service
     servicePort: 80
 ```
- 
+Unter Kind muss aber das Cluster entsprechend konfiguriert werden 
+https://kind.sigs.k8s.io/docs/user/ingress/, dann kann man einen Ingress Controller auf Nginx Basis für die Demo Anwendung erstellen.
+
+```
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: example-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: kuard-service
+            port:
+              number: 80
+```
+Der Dienst ist dann unter http://127.0.0.1/ ohne `port-forwarding` aufrufbar.
 
 ## Wie würde ein alerting im Kubernetes Cluster aussehen? Welche Möglichkeiten gibt es?
 
